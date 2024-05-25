@@ -1,6 +1,11 @@
 # linux-sou
-Linux信息内网收集脚本,收集包括配置信息数据库配置，key一类各种密码。
+Linux信息内网收集脚本,收集包括配置信息数据库配置，各种密码如敏感信息，云主机key搜索、一键完成内网信息收集。
 # 使用方法
+## 快速使用
+```
+wget https://github.com/19xinan/linux-sou/blob/main/linux-sou.sh;chmod +x ./linux-sou.sh;./linux-sou.sh
+```
+## 自定义用法（推荐）
 1.下载
 ```
 wget https://github.com/19xinan/linux-sou/blob/main/linux-sou.sh
