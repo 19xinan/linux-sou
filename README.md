@@ -1,2 +1,29 @@
 # linux-sou
-Linux信息内网收集脚本
+Linux信息内网收集脚本,收集包括配置信息数据库配置，key一类各种密码。
+# 使用方法
+1.下载
+```
+wget https://github.com/19xinan/linux-sou/blob/main/linux-sou.sh
+```
+2.加权限
+```
+chmod +x ./linux-sou.sh
+```
+3.修改配置
+```
+# 定义要搜索的文件类型
+file_types=("*.env" "*.properties" "config.json" "conf.json" "config.yaml" "conf.yaml" "config.yml" "conf.yml" "*.bash_history" "*config*" "web.xml" "*database*" "*pass*" "conf.json" "conf.json" "*.conf" "*.txt" "*.log" "*.xml" "*.config" "*.cfg" "*.ini" "*history")
+
+# 定义要查找的模式
+patterns=("DB_HOST" "DB_USER" "DB_PASS" "DATABASE_URL" "API_KEY" "SECRET_KEY" "ACCESS_KEY" "PRIVATE_KEY" "jdbc:" "LTA" "password" "username" "token" "oauth" "auth_token" "api_token" "api_key" "Authorization" "client_secret" "client_id")
+
+# 定义要搜索的位置
+从更根目录
+search_locations=("/" )
+#search_locations=("/www" "/home" "/root" "/var" )
+#search_locations=("/www" "/home" "/root" "/etc" "/var" "/opt" "/usr" "/tmp")
+```
+4.执行
+```
+./linux-sou.sh
+```
