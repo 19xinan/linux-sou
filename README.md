@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/19xinan/linux-sou/main/linux-sou.sh;chmod
 ## 自定义用法（推荐）
 1.下载
 ```
-wget https://github.com/19xinan/linux-sou/blob/main/linux-sou.sh
+wget https://raw.githubusercontent.com/19xinan/linux-sou/main/linux-sou.sh
 ```
 2.加权限
 ```
