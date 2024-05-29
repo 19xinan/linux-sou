@@ -3,7 +3,7 @@ Linux信息内网收集脚本,收集包括配置信息数据库配置，各种�
 # 使用方法
 ## 快速使用
 ```
-wget https://github.com/19xinan/linux-sou/blob/main/linux-sou.sh;chmod +x ./linux-sou.sh;./linux-sou.sh
+wget https://raw.githubusercontent.com/19xinan/linux-sou/main/linux-sou.sh;chmod +x ./linux-sou.sh;./linux-sou.sh
 ```
 ## 自定义用法（推荐）
 1.下载
